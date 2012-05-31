@@ -13,8 +13,15 @@ documentation generator. For more information, see:
 http://jashkenas.github.com/docco/
 
 It looks like jashkenas hasn't been updating docco, and I needed it to
-support what I needed, so here is my fork.
+support what I needed, so here is my fork. -SC
 
+
+Building Docco:
+
+run:
+
+$ cake build
+$ cake install
 
 TODO:
 
@@ -23,7 +30,3 @@ I plan to build in:
 * higher number of languages supported (manually adding - short term)
 
 * automatic language detection (much better / long-term)
-
-
-
--SC
