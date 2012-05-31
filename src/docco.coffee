@@ -170,6 +170,18 @@ languages =
     name: 'c', symbol: '//'
   '.h':
     name: 'c', symbol: '//'
+  '.cpp':
+    name: 'cpp', symbol: '//'
+  '.cc':
+    name: 'cpp', symbol: '//'
+  '.hs':
+    name: 'haskell', symbol: '--'
+  '.php':
+    name: 'php', symbol: '//'
+  '.sh':
+    name: 'bash', symbol: '#'
+  '.mak':
+    name: 'basemake', symbol: '#'
 
 # Build out the appropriate matchers and delimiters for each language.
 for ext, l of languages
