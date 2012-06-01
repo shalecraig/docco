@@ -7,7 +7,7 @@
 # 
 # Once docco is installed, running
 # 
-#     docco src/*.coffee
+#     cake doc
 # 
 # Will re-generate this page with inline modifications to the source file.
 #
