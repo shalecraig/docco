@@ -4,17 +4,32 @@
 # [Markdown](http://daringfireball.net/projects/markdown/syntax), and code is
 # passed through [Pygments](http://pygments.org/) syntax highlighting.
 # This page is the result of running Docco against its own source file.
-#
-# If you install Docco, you can run it from the command-line:
-#
+# 
+# Once docco is installed, running
+# 
 #     docco src/*.coffee
+# 
+# Will re-generate this page with inline modifications to the source file.
 #
-# ...will generate an HTML documentation page for each of the named source files, 
-# with a menu linking to the other pages, saving it into a `docs` folder.
+#### Running on your own files:
+# 
+# To docco on all files in a directory, execute:
+# 
+#     docco foo/*
+# 
+# This will generate an HTML documentation page for each of the named source files, 
+# with a menu linking to the other generated pages, saving it into a `docs` folder.
 #
-# The [source for Docco](http://github.com/jashkenas/docco) is available on GitHub,
+# An actively updated [fork of Docco](http://github.com/sakcraig/docco) is available on GitHub,
 # and released under the MIT license.
 #
+# The [original source for Docco](http://github.com/jashkenas/docco) is available on GitHub,
+# and is also released under the MIT license.
+#
+# 
+#### Installing Docco: 
+# 
+# 
 # To install Docco, first make sure you have [Node.js](http://nodejs.org/),
 # [Pygments](http://pygments.org/) (install the latest dev version of Pygments
 # from [its Mercurial repo](http://dev.pocoo.org/hg/pygments-main)), and
@@ -22,9 +37,16 @@
 #
 #     sudo npm install -g docco
 #
-# Docco can be used to process CoffeeScript, JavaScript, Ruby, Python, or TeX files.
+# Docco can be used to process CoffeeScript, JavaScript, Ruby, Python, TeX, C, C++, PHP, Haskell, Shell, and Makefiles.
 # Only single-line comments are processed -- block comments are ignored.
 #
+# If you want to build Docco from source, you can run the command:
+#
+#     cake build;
+#     cake install
+# 
+# This will build Docco from source, and will install the `docco` command into /usr/local
+# 
 #### Partners in Crime:
 #
 # * If **Node.js** doesn't run on your platform, or you'd prefer a more 
